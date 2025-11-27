@@ -427,7 +427,7 @@
                     "1. Turn your front wheel to the left and set your parking brake?",
                     "2. Set your parking brake only?",
                     "3. Leave your front wheels parallel to the curb?",
-                    "4. Turn your front wheels to the right and set your parking brake?"],
+                    "4. Turn your front wheels to the right and set your parking brake"],
         "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
         "answer": "Ans 1"
     },
@@ -470,14 +470,14 @@
     {
         "id": 40,
         "image": "question39.png",
-        "question": "When a 'School Bus' stops with red signals flashing the law requires drivers of other vehicles to:",
-        "options": [
-            "Reduce speed and pass with added care",
-            "Does not matter provided you sound horn",
-            "Wait for approaching vehicles to pass",
-            "Stop until the bus proceeds or the signal lights are no longer operating"
-        ],
-        "answer": "Stop until the bus proceeds or the signal lights are no longer operating"
+        "question": ["When a 'School Bus' stops with red signals flashing the law requires drivers of other vehicles to:",
+                    "",
+                    "1. Reduce speed and pass with added care.",
+                    "2. Does not matter provided you sound horn.",
+                    "3. Wait for approaching vehicles to pass.",
+                    "4. Stop until the bus proceeds or the signal lights are no longer operating."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 41,
@@ -530,24 +530,24 @@
     {
         "id": 45,
         "image": "question44.png",
-        "question": "When approaching an intersection where a stop sign faces you, what does the law require you to do?",
-        "options": [
-            "Stop and then proceed",
-            "Stop and proceed when it is safe to do so",
-            "Slow down and proceed when it is safe to do so",
-            "Yield right of way if necessary to vehicles approaching from the left or right"
-        ],
-        "answer": "Stop and proceed when it is safe to do so"
+        "question": ["When approaching an intersection where a stop sign faces you, what does the law require you to do?",
+                      "",
+                      "1. Stop and then proceed.",
+                      "2. Stop and proceed when it is safe to do so.",
+                      "3. Slow down and proceed when it is safe to do so.",
+                      "4. Yield right of way if necessary to vehicles approaching from the left or right."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     },
     {
         "id": 46,
         "image": "question45.png",
-        "question": ["When you are approaching the spot designated for streetcar to take on or discharge passengers, what you suppose to do",
+        "question": ["1. When you are approaching the spot designated for streetcar to take on or discharge passengers, what you suppose to do",
                     "",
-                    "If you are not driving in on one way street, you could go pass from right side, By driving very carefully, at moderate speed and keeping in mind of pedestrians",
-                    "Never pass that streetcar",
-                    "I you are not driving in on oneway street you could pass from right side",
-                    "Blow the horn and pass the street car"
+                    "2. If you are not driving in on one way street, you could go pass from right side, By driving very carefully, at moderate speed and keeping in mind of pedestrians",
+                    "3. Never pass that streetcar",
+                    "4. I you are not driving in on oneway street you could pass from right side",
+                    "5. Blow the horn and pass the street car"
         ],
         "options": ["Ans 1", "Ans 2", "Ans 3", "Ans 3"],
         "answer": "Ans 1"
@@ -555,26 +555,26 @@
     {
         "id": 47,
         "image": "question46.png",
-        "question": "If you waiting in intersection to make left hand turn Lights turns red, What you should do?",
-        "options": [
-            "You should wait there because light is Red",
-            "Back up your car",
-            "Go straight but do not make a left turn",
-            "Make the Left turn when it is safe to do"
-        ],
-        "answer": "Make the Left turn when it is safe to do"
+        "question": ["If you waiting in intersection to make left hand turn Lights turns red, What you should do?",
+                    "",
+                    "1. You should wait there because light is Red.",
+                    "2. Back up your car.",
+                    "3. Go straight but do not make a left turn.",
+                    "4. Make the Left turn when it is safe to do."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 48,
         "image": "question47.png",
-        "question": "Upon approaching an intersection marked with a 'yield' sign, you are required to:",
-        "options": [
-            "Keep same speed and look left and right",
-            "Stop, and then enter the intersection quickly",
-            "Stop, and then enter the intersection slowly",
-            "Enter intersection only when way is clear"
-        ],
-        "answer": "Enter intersection only when way is clear"
+        "question": ["Upon approaching an intersection marked with a 'yield' sign, you are required to:",
+                    "",
+                    "1. Keep same speed and look left and right.",
+                    "2. Stop, and then enter the intersection quickly.",
+                    "3. Stop, and then enter the intersection slowly.",
+                    "4. Enter intersection only when way is clear."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 49,
@@ -639,26 +639,26 @@
     {
         "id": 54,
         "image": "question53.png",
-        "question": "If you have G1 Licence, you could only drive on 400 series Highway or any road where speed is more 80 Km. Hr.",
-        "options": [
-          "You have a certified Driving instructor with you.",
-          "Driver with 4 years driving Licence.",
-          "When carefully you could enter highway.",
-          "When you get make experience"
-        ],
-        "answer": "You have a certified Driving instructor with you."
+        "question": ["If you have G1 Licence, you could only drive on 400 series Highway or any road where speed is more 80 Km. Hr.",
+                    "",
+                    "1. You have a certified Driving instructor with you.",
+                    "2. Driver with 4 years driving Licence.",
+                    "3. When carefully you could enter highway.",
+                    "4. When you get make experience"],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 1"
     },
     {
         "id": 55,
         "image": "question54.png",
-        "question": "Should your right wheels drop off the roadway, what is the best way to get back in the roadway?",
-        "options": [
-            "Apply brakes to reduce speed",
-            "Steer hard to the left",
-            "Apply brakes and steer hard to the left",
-            "Take foot off gas pedal; turn back when vehicle has slowed"
-        ],
-        "answer": "Take foot off gas pedal; turn back when vehicle has slowed"
+        "question": ["Should your right wheels drop off the roadway, what is the best way to get back in the roadway?",
+                    "1. Apply brakes to reduce speed.",
+                    "2. Steer hard to the left.",
+                    "3. Apply brakes and steer hard to the left.",
+                    "4. Take foot off gas pedal; turn back when vehicle has slowed.",
+                    ""],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 56,
@@ -711,14 +711,14 @@
     {
         "id": 60,
         "image": "question59.png",
-        "question": "If you have G1 Licence most important thing is that you should",
-        "options": [
-          "Drive alone so that you won't get distracts",
-          "You must have driver with you at least four year driving experience",
-          "Hold the steering wheel with both hands",
-          "Drive only day time"
-        ],
-        "answer": "You must have driver with you at least four year driving experience"
+        "question": ["If you have G1 Licence most important thing is that you should",
+                    "",
+                    "1. Drive alone so that you won't get distracts.",
+                    "2. You must have driver with you at least four year driving experience.",
+                    "3. Hold the steering wheel with both hands.",
+                    "4. Drive only day time."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     },
     {
         "id": 61,
@@ -759,14 +759,14 @@
     {
         "id": 64,
         "image": "question63.png",
-        "question": "To change licence from G1 to G2, what someone should do?",
-        "options": [
-            "Pass the written test, for G2",
-            "Don't do any thing, after required time you will get G2 Licence by mail",
-            "Complete defensive driving course",
-            "After waiting the required time, pass the G1 Exist test"
-        ],
-        "answer": "After waiting the required time, pass the G1 Exist test"
+        "question": ["To change licence from G1 to G2, what someone should do?",
+                    "",
+                    "1. Pass the written test, for G2.",
+                    "2. Don't do any thing, after required time you will get G2 Licence by mail.",
+                    "3. Complete defensive driving course.",
+                    "4. After waiting the required time, pass the G1 Exist test."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 65,
@@ -879,14 +879,14 @@
     {
         "id": 74,
         "image": "question73.png",
-        "question": "When lights are required, drivers are required to use low beam headlights:",
-        "options": [
-          "Within 1 km (0.6 mi) of the approach of another vehicle",
-          "Within 150 m (500 ft) of the approach of another vehicle",
-          "Within 300 m (100 ft) of the approach of another vehicle",
-          "This is a safety practice, not a law"
-        ],
-        "answer": "Within 150 m (500 ft) of the approach of another vehicle"
+        "question": ["When lights are required, drivers are required to use low beam headlights:",
+                    "",
+                    "1. Within 1 km (0.6 mi) of the approach of another vehicle.",
+                    "2. Within 150 m (500 ft) of the approach of another vehicle.",
+                    "3. Within 300 m (100 ft) of the approach of another vehicle.",
+                    "4. This is a safety practice, not a law"],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     },
     {
         "id": 75,
@@ -915,14 +915,14 @@
     {
         "id": 77,
         "image": "question76.png",
-        "question": "If you have G1 or G2 Licence, after how many demerit points your licence could be suspended",
-        "options": [
-            "4 demerit points",
-            "6 demerit points",
-            "8 demerit points",
-            "During first two year 9 or more demerit points"
-        ],
-        "answer": "During first two year 9 or more demerit points"
+        "question": ["If you have G1 or G2 Licence, after how many demerit points your licence could be suspended",
+                    "",
+                    "1. 4 demerit points.",
+                    "2. 6 demerit points.",
+                    "3. 8 demerit points.",
+                    "4. During first two year 9 or more demerit points"],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 78,
@@ -939,14 +939,14 @@
     {
         "id": 79,
         "image": "question78.png",
-        "question": "On a roadway where traffic is moving in both directions, in what position must you before making a left turn?",
-        "options": [
-            "Close to the right-hand side of the roadway",
-            "Close to the left- hand side of the roadway",
-            "Immediately to the right of the centre line of the roadway",
-            "Does not matter provided you signal"
-        ],
-        "answer": "Immediately to the right of the centre line of the roadway"
+        "question": ["On a roadway where traffic is moving in both directions, in what position must you before making a left turn?",
+                    "",
+                    "1. Close to the right-hand side of the roadway.",
+                    "2. Close to the left- hand side of the roadway.",
+                    "3. Immediately to the right of the centre line of the roadway.",
+                    "4. Does not matter provided you signal."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 3"
     },
     {
         "id": 80,
@@ -999,14 +999,14 @@
     {
         "id": 84,
         "image": "question83.png",
-        "question": "A flashing red signal light at an intersection means:",
-        "options": [
-            "Slow down and drive with increased caution",
-            "Slow down and if necessary yield right-of-way to cars approaching from the left or right",
-            "Signal light is out of order, proceed with caution",
-            "Stop, Proceed only when it is safe to do so"
-        ],
-        "answer": "Stop, Proceed only when it is safe to do so"
+        "question": ["A flashing red signal light at an intersection means:",
+                    "",
+                    "1. Slow down and drive with increased caution.",
+                    "2. Slow down and if necessary yield right-of-way to cars approaching from the left or right.",
+                    "3. Signal light is out of order, proceed with caution.",
+                    "4. Stop, Proceed only when it is safe to do so."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 85,
@@ -1015,7 +1015,7 @@
           "",
           "1. Slow down, proceed with caution",
           "2. Stop, and then merge into traffic",
-          "3. Stop, signal makes the turn so as not to interfere with other traffic, including pedestrians?",
+          "3. Stop, signal makes the turn so as not to interfere with other traffic, including pedestrians",
           "4. Slow down, signal and turn"],
         "options": ["Ans 1", "Ans 2", "Ans 3", "Ans 4"],
         "answer": "Ans 3"
@@ -1059,14 +1059,14 @@
     {
         "id": 89,
         "image": "question88.png",
-        "question": "You can be charged with dangerous or careless driving if you?",
-        "options": [
-            "Make sudden lane change on the highway",
-            "Forget put you signal",
-            "Do not wear you seat belt",
-            "Cause a collision while using cellular phone"
-        ],
-        "answer": "Cause a collision while using cellular phone"
+        "question": ["You can be charged with dangerous or careless driving if you?",
+                    "",
+                    "1. Make sudden lane change on the highway.",
+                    "2. Forget put you signal.",
+                    "3. Do not wear you seat belt.",
+                    "4. Cause a collision while using cellular phone."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 90,
@@ -1086,7 +1086,7 @@
         "question": ["Never change lanes in traffic without:",
           "",
           "1. Blowing your horn and looking to the rear",
-          "2. Looking into the rear view mirror only?",
+          "2. Looking into the rear view mirror only",
           "3. Giving proper signal and looking to make sure the move be made safely",
           "4. Decreasing speed and giving correct signal"],
         "options": ["Ans 1", "Ans 2", "Ans 3", "Ans 4"],
@@ -1107,26 +1107,26 @@
     {
         "id": 93,
         "image": "question92.png",
-        "question": "When a car is stopped to allow a pedestrian to cross the street at a marked cross walk, you should:",
-        "options": [
-            "Pass the stopped car to the right",
-            "Not pass any car stopped to allow a pedestrian to cross",
-            "Sound horn for the driver of the stopped car to drive on",
-            "Pass the stopped car on the left"
-        ],
-        "answer": "Not pass any car stopped to allow a pedestrian to cross"
+        "question": ["When a car is stopped to allow a pedestrian to cross the street at a marked cross walk, you should:",
+                    "",
+                    "1. Pass the stopped car to the right.",
+                    "2. Not pass any car stopped to allow a pedestrian to cross.",
+                    "3. Sound horn for the driver of the stopped car to drive on.",
+                    "4. Pass the stopped car on the left."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     },
     {
         "id": 94,
         "image": "question93.png",
-        "question": "You are required to keep a safe distance behind the vehicle in front of you 50 kilometers (30 miles) an hour you should keep at least:",
-        "options": [
-          "Five car lengths behind the other vehicle?",
-          "One car length behind the other vehicle",
-          "Three car length behind the other vehicle",
-          "Seven car length behind the other vehicle"
-        ],
-        "answer": "Three car length behind the other vehicle"
+        "question": ["You are required to keep a safe distance behind the vehicle in front of you 50 kilometers (30 miles) an hour you should keep at least:",
+                    "",
+                    "1. Five car lengths behind the other vehicle.",
+                    "2. One car length behind the other vehicle.",
+                    "3. Three car length behind the other vehicle.",
+                    "4. Seven car length behind the other vehicle"],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 3"
     },
     {
         "id": 95,
@@ -1143,14 +1143,14 @@
     {
         "id": 96,
         "image": "question95.png",
-        "question": "When approaching railway crossing at which an electrical or mechanical signal device is warning of approach of a train you must:",
-        "options": [
-            "Stop not less than 1.5 m (15 ft) from the nearest rail",
-            "Increase speed and cross tracks as quickly as possible",
-            "Stop not less than 5 m (15 ft) from the nearest rail",
-            "Slow down and proceed with caution"
-        ],
-        "answer": "Stop not less than 5 m (15 ft) from the nearest rail"
+        "question": ["When approaching railway crossing at which an electrical or mechanical signal device is warning of approach of a train you must:",
+                    "",
+                    "1. Stop not less than 1.5 m (15 ft) from the nearest rail.",
+                    "2. Increase speed and cross tracks as quickly as possible.",
+                    "3. Stop not less than 5 m (15 ft) from the nearest rail.",
+                    "4. Slow down and proceed with caution."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 3"
     },
     {
         "id": 97,
@@ -1167,14 +1167,14 @@
     {
         "id": 98,
         "image": "question97.png",
-        "question": "When the driver of another vehicle is about to over take and pass your vehicle you must:",
-        "options": [
-            "Speed up so that passing is not necessary",
-            "Signal to other drivers not to pass",
-            "Move to the right and allow such vehicle to pass",
-            "Move to the left to prevent passing"
-        ],
-        "answer": "Move to the right and allow such vehicle to pass"
+        "question": ["When the driver of another vehicle is about to over take and pass your vehicle you must:",
+                    "",
+                    "1. Speed up so that passing is not necessary.",
+                    "2. Signal to other drivers not to pass.",
+                    "3. Move to the right and allow such vehicle to pass.",
+                    "4. Move to the left to prevent passing."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 3"
     },
     {
         "id": 99,
@@ -1215,14 +1215,14 @@
     {
         "id": 102,
         "image": "question101.png",
-        "question": "The best way to stop quickly on a wet or icy roadway is to:",
-        "options": [
-            "Pump the brake until you come to a stop",
-            "Keep the foot off brake and let compression stop you",
-            "Put brakes on hard and try to prevent vehicle from skidding",
-            "Apply brakes the same way you always do"
-        ],
-        "answer": "Pump the brake until you come to a stop"
+        "question": ["The best way to stop quickly on a wet or icy roadway is to:",
+                    "",
+                    "1. Pump the brake until you come to a stop.",
+                    "2. Keep the foot off brake and let compression stop you.",
+                    "3. Put brakes on hard and try to prevent vehicle from skidding.",
+                    "4. Apply brakes the same way you always do."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 1"
     },
     {
         "id": 103,
@@ -1287,14 +1287,14 @@
     {
         "id": 108,
         "image": "question107.png",
-        "question": "When approaching a red traffic signal light and a police man motions you to go through, you must:",
-        "options": [
-            "Go through at once",
-            "Call the policeman's attention to the red light",
-            "Stop to make sure the policeman wants you to go through",
-            "Wait for the light to turn green"
-        ],
-        "answer": "Go through at once"
+        "question": ["When approaching a red traffic signal light and a police man motions you to go through, you must:",
+                    "",
+                    "1. Go through at once.",
+                    "2. Call the policeman's attention to the red light.",
+                    "3. Stop to make sure the policeman wants you to go through.",
+                    "4. Wait for the light to turn green."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 1"
     },
     {
         "id": 109,
@@ -1311,26 +1311,26 @@
     {
         "id": 110,
         "image": "question109.png",
-        "question": "In Ontario, when should you wear seat belt?",
-        "options": [
-          "Only for elderly people or children under sixteen years of age",
-          "In between business hours only",
-          "Always",
-          "Never"
-    ],
-        "answer": "Always"
+        "question": ["In Ontario, when should you wear seat belt?",
+                    "",
+                    "1. Only for elderly people or children under sixteen years of age.",
+                    "2. In between business hours only.",
+                    "3. Always.",
+                    "4. Never."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 3"
     },
     {
         "id": 111,
         "image": "question110.png",
-        "question": "When stopped by police at a roadside spot check and asked to provide a breath sample?",
-        "options": [
-            "You can refuse until a lawyer comes",
-            "It is a criminal offence to refuse",
-            "It is a traffic offence to refuse",
-            "You can refuse if you've had nothing to drink"
-        ],
-        "answer": "It is a criminal offence to refuse"
+        "question": ["When stopped by police at a roadside spot check and asked to provide a breath sample?",
+                    "",
+                    "1. You can refuse until a lawyer comes.",
+                    "2. It is a criminal offence to refuse.",
+                    "3. It is a traffic offence to refuse.",
+                    "4. You can refuse if you've had nothing to drink."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     },
     {
         "id": 112,
@@ -1371,14 +1371,14 @@
     {
         "id": 115,
         "image": "question114.png",
-        "question": "At night when you meet another vehicle with blinding bright lights, the safest thing to do is?",
-        "options": [
-            "Open and shut your eyes rapidly",
-            "Look at the headlights of the approaching vehicle",
-            "Turn slightly to the right hand side",
-            "Look slightly to the right hand side"
-        ],
-        "answer": "Look slightly to the right hand side"
+        "question": ["At night when you meet another vehicle with blinding bright lights, the safest thing to do is?",
+                    "",
+                    "1. Open and shut your eyes rapidly.",
+                    "2. Look at the headlights of the approaching vehicle.",
+                    "3. Turn slightly to the right hand side.",
+                    "4. Look slightly to the right hand side."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 116,
@@ -1431,14 +1431,14 @@
     {
         "id": 120,
         "image": "question119.png",
-        "question": "A flashing green light at an intersection where turns to the left and right are permitted, means:",
-        "options": [
-          "You may turn to the left if the way is clear",
-          "You may turn to the right if the way is clear",
-          "You may proceed straight through if the way is clear",
-          "You may do any of the above"
-        ],
-        "answer": "You may do any of the above"
+        "question": ["A flashing green light at an intersection where turns to the left and right are permitted, means:",
+                    "",
+                    "1. You may turn to the left if the way is clear.",
+                    "2. You may turn to the right if the way is clear.",
+                    "3. You may proceed straight through if the way is clear.",
+                    "4. You may do any of the above."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 4"
     },
     {
         "id": 121,
@@ -1493,26 +1493,26 @@
     {
         "id": 125,
         "image": "question124.png",
-        "question": "When a blowout occurs you should:",
-        "options": [
-          "Let up on the accelerator and concentrate on steering",
-          "Accelerate and steer to the left",
-          "Accelerate and steer to the right",
-          "Let up on the accelerator and jam on the brakes"
-        ],
-        "answer": "Let up on the accelerator and concentrate on steering"
+        "question": ["When a blowout occurs you should:",
+                    "",
+                    "1. Let up on the accelerator and concentrate on steering.",
+                    "2. Accelerate and steer to the left.",
+                    "3. Accelerate and steer to the right.",
+                    "4. Let up on the accelerator and jam on the brakes."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 1"
     },
     {
         "id": 126,
         "image": "question125.png",
-        "question": "In what lane of traffic should you drive when you intend to make a right-hand turn?",
-        "options": [
-          "Close to the left side of the roadway",
-          "Close to the right-hand side of the roadway",
-          "Close centre line of the roadway",
-          "Does not matter provided you signal"
-        ],
-        "answer": "Close to the right-hand side of the roadway"
+        "question": ["In what lane of traffic should you drive when you intend to make a right-hand turn?",
+                    "",
+                    "1. Close to the left side of the roadway.",
+                    "2. Close to the right-hand side of the roadway.",
+                    "3. Close centre line of the roadway.",
+                    "4. Does not matter provided you signal."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     },
     {
         "id": 127,
@@ -1593,14 +1593,14 @@
     {
         "id": 133,
         "image": "question132.png",
-        "question": "It is more dangerous to drive at the maximum speed limit at night than during day time because:",
-        "options": [
-            "The roadways are more apt to be slippery at night",
-            "You cannot see as far as ahead at night",
-            "Your reaction time is slower at night",
-            "Some drivers unlawfully drive with parking lights only"
-        ],
-        "answer": "You cannot see as far as ahead at night"
+        "question": ["It is more dangerous to drive at the maximum speed limit at night than during day time because:",
+                    "",
+                    "1. The roadways are more apt to be slippery at night.",
+                    "2. You cannot see as far as ahead at night.",
+                    "3. Your reaction time is slower at night.",
+                    "4. Some drivers unlawfully drive with parking lights only."],
+        "options": ["Ans 1","Ans 2","Ans 3","Ans 4"],
+        "answer": "Ans 2"
     }
   ]
 }

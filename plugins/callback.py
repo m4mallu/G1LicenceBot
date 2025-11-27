@@ -40,7 +40,8 @@ async def handle_callback(client, callback_query: CallbackQuery, user_data, QUIZ
 
         # Show final score with restart button
         buttons = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Restart Quiz", callback_data="restart")]]
+            [[InlineKeyboardButton("Restart Quiz", callback_data="restart"),
+              InlineKeyboardButton("Close", callback_data="close_button")]]
         )
         msg = await client.send_message(
             user_id,

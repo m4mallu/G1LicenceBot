@@ -1,4 +1,4 @@
-import os, json, sys
+import os, json, sys, asyncio
 from config import Config
 from pyrogram.enums import ParseMode
 from pyrogram import filters, Client
@@ -81,9 +81,26 @@ async def start_quiz(client, message: Message):
 async def send_question(client, user_id):
     q_index = user_data[user_id]["current_question"]
 
-    # End of quiz
+    # -------------------------------
+    # END OF QUIZ (UPDATED VERSION)
+    # -------------------------------
     if q_index >= len(QUIZ):
-        # Delete all previous messages
+
+        # 1. Send initial calculating message
+        calculating_msg = await client.send_message(
+            user_id,
+            "Calculating the score."
+        )
+
+        # 2. Simple 3-step animation
+        for dots in [".", "..", "..."]:
+            await asyncio.sleep(0.4)
+            try:
+                await calculating_msg.edit_text(f"Calculating the score{dots}")
+            except:
+                pass
+
+        # 3. Delete all previous messages
         all_msgs = user_data[user_id].get("all_msgs", [])
         for msg_id in all_msgs:
             try:
@@ -92,12 +109,33 @@ async def send_question(client, user_id):
                 pass
         user_data[user_id]["all_msgs"] = []
 
+        # 4. Gather score
         score = user_data[user_id]["score"]
         total = len(QUIZ)
-        button = InlineKeyboardMarkup([[InlineKeyboardButton("Restart Quiz", callback_data="restart")]])
-        msg = await client.send_message(user_id, f"Quiz completed!\nScore: {score}/{total}", reply_markup=button)
-        user_data[user_id]["all_msgs"].append(msg.id)
+
+        # 5. Buttons: Restart + Close
+        buttons = InlineKeyboardMarkup([
+            [InlineKeyboardButton("Start Quiz", callback_data="start_quiz")],
+            [InlineKeyboardButton("Close", callback_data="close_button")]
+        ])
+
+        # Small delay for smoothness
+        await asyncio.sleep(0.5)
+
+        # 6. Edit message to final result
+        await calculating_msg.edit_text(
+            f"Quiz completed!\nYour Score: {score}/{total}",
+            reply_markup=buttons
+        )
+
+        # Track final message
+        user_data[user_id]["all_msgs"].append(calculating_msg.id)
         return
+
+
+    # -------------------------------
+    # NORMAL QUESTION FLOW
+    # -------------------------------
 
     # Delete previous question message
     last_msg = user_data[user_id].get("last_msg")
@@ -110,16 +148,24 @@ async def send_question(client, user_id):
     question = QUIZ[q_index]
     progress = f"Question {q_index + 1} of {len(QUIZ)}"
 
-    # Create options buttons
-    keyboard = [[InlineKeyboardButton(opt, callback_data=f"ans:{q_index}:{i}")] for i, opt in enumerate(question["options"])]
-    keyboard.append([InlineKeyboardButton("End Quiz", callback_data="end_quiz"),
-                     InlineKeyboardButton(text="Close", callback_data="close_button")])
-    # Handle both string and list types in the json parameter 'questions'
+    # Options buttons
+    keyboard = [
+        [InlineKeyboardButton(opt, callback_data=f"ans:{q_index}:{i}")]
+        for i, opt in enumerate(question["options"])
+    ]
+
+    keyboard.append([
+        InlineKeyboardButton("End Quiz", callback_data="end_quiz"),
+        InlineKeyboardButton("Close", callback_data="close_button")
+    ])
+
+    # Handle string or list-type "question" field
     if isinstance(question["question"], list):
         question_text = "\n".join(question["question"])
     else:
         question_text = question["question"]
 
+    # Send question photo + caption
     msg = await client.send_photo(
         user_id,
         photo=f"images/{question['image']}",
@@ -128,7 +174,7 @@ async def send_question(client, user_id):
     )
 
     user_data[user_id]["last_msg"] = msg.id
-    user_data[user_id]["all_msgs"].append(msg.id)
+    user_data[user_id].setdefault("all_msgs", []).append(msg.id)
 
 
 # This function provides some basic information about this bot (Admin use only)--------------------------------------
