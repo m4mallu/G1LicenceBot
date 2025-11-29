@@ -31,11 +31,20 @@
     <summary><b>Deploy</b></summary>
     <p align="left"></p>
         <b><u>Deploy in VPS / Linux distros:</u></b>
+        <ul> 
+            <li>Rename <code>sample_config.py</code> to <code>config.py</code> </li>
+            <li>Add the environment variables in <code>config.py</code></li>
+            <li>Open a terminal within the Bot directory and run...</li>
+            <li><code>/app_run.sh</code></li>
+        </ul>
+        <br>
+        <strong>OR</strong>
+        <br>
         <ul>
             <li><strong>Open a Linux Terminal and Run the below commands ( Stage: 1 )</strong></li>
             <li><code>git clone https://github.com/m4mallu/G1LicenseBot</code></li>
             <li><code>cd G1LicenceBot</code></li>
-            <li>Create a <code>config.py</code> with the Mandatory variables (Refer sample_config.py) and save it in the bot directory.</li>
+            <li>Create a <code>config.py</code> with the Mandatory variables (or rename <code>sample_config.py</code>) and save it in the bot directory.</li>
             <li><strong>Run the below commands in the same terminal ( Stage: 2 )</strong></li>
             <li><code>virtualenv -p python3 venv</code></li>
             <li><code>. ./venv/bin/activate</code></li>
