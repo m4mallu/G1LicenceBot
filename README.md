@@ -24,7 +24,7 @@
     users       -   Count users of the bot
     reload      -   reboot the bot
     listusers   -   It gives a detailed list of the users.
-    broadcase   -   Bradcast messages to the users (Usage - /broadcast Your message here)
+    broadcast   -   Bradcast messages to the users (Usage - /broadcast Your message here)
 </p>
 </details>
 <details>
@@ -33,7 +33,7 @@
         <b><u>Deploy in VPS / Linux distros:</u></b>
         <ul>
             <li><strong>Open a Linux Terminal and Run the below commands ( Stage: 1 )</strong></li>
-            <li><code>git clone https://github.com/m4mallu/G1LicenceBot</code></li>
+            <li><code>git clone https://github.com/m4mallu/G1LicenseBot</code></li>
             <li><code>cd G1LicenceBot</code></li>
             <li>Create a <code>config.py</code> with the Mandatory variables (Refer sample_config.py) and save it in the bot directory.</li>
             <li><strong>Run the below commands in the same terminal ( Stage: 2 )</strong></li>
